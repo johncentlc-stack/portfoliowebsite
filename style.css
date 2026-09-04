@@ -106,7 +106,7 @@ section{position:relative;}
 
 /* ---------- Hero ---------- */
 .hero{
-  padding:96px 0 80px;
+  padding:96px 0 96px;
   position:relative;overflow:hidden;
 }
 .hero .blueprint-bg{
