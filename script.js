@@ -1,10 +1,10 @@
 /* ================= CENTRALIZED EDITABLE CONTENT ================= */
 const PROJECTS = [
   {
-    title: "[PROJECT TITLE]",
+    title: "Painting Works",
     category: "Quantity Takeoff",
     description: "[PROJECT DESCRIPTION — short summary of the takeoff scope, e.g. flooring and tiling quantities for a residential renovation.]",
-    software: "PlanSwift, AutoCAD",
+    software: "PlanSwift",
     role: "[MY ROLE]",
     date: "[PROJECT DATE]",
     overview: "[PROJECT OVERVIEW — describe the project background and objective.]",
