@@ -78,7 +78,9 @@ const grid = document.getElementById('portfolioGrid');
 function renderProjects(){
   grid.innerHTML = PROJECTS.map((p, i) => `
     <article class="proj-card" data-category="${p.category}">
-      <div class="proj-img"><span>[PROJECT IMAGE]</span></div>
+      <div class="proj-img">
+  <img src="${p.image}" alt="${p.title}">
+</div>
       <div class="proj-body">
         <span class="proj-cat">${p.category}</span>
         <h3>${p.title}</h3>
