@@ -398,16 +398,11 @@ section{position:relative;}
   overflow:hidden;
 }
 
-.proj-img img{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  display:block;
-}
-
-.proj-img span{
-  font-size:13px;
-  color:var(--charcoal-soft);
+.proj-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 .proj-body{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1;}
 .proj-cat{font-size:12px;color:var(--amber);font-weight:600;}
@@ -439,9 +434,15 @@ section{position:relative;}
 .modal-section{margin-bottom:18px;}
 .modal-section h4{font-size:13px;color:var(--amber);margin-bottom:6px;font-family:'DM Sans',sans-serif;font-weight:700;}
 .modal-section p{font-size:14.5px;color:var(--charcoal-soft);}
-.modal-img{
-  aspect-ratio:16/9;background:var(--blueprint);border:1px dashed var(--line);
-  display:flex;align-items:center;justify-content:center;margin-bottom:22px;border-radius:var(--radius-s);
+.modal-img {
+  overflow: hidden;
+}
+
+.modal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 .modal-img span{font-size:13px;color:var(--charcoal-soft);}
 
