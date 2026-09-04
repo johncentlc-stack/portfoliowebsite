@@ -232,24 +232,88 @@ section{position:relative;}
 .tl-card li::before{content:"—";position:absolute;left:0;color:var(--amber);}
 
 /* ---------- Skills (Bento) ---------- */
-.bento{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
-.bento-card{
-  background:var(--white);border:1px solid var(--line);border-radius:var(--radius-m);
-  padding:26px;
+/* ---------- Skills (Bento) ---------- */
+
+.bento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.bento-card h3{
-  font-size:16px;color:var(--navy);margin-bottom:18px;font-family:'DM Sans',sans-serif;font-weight:700;
-  padding-bottom:14px;border-bottom:1px solid var(--blueprint);
+
+.bento-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 26px;
 }
-.skill-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;}
-.skill-name{font-size:14.5px;color:var(--charcoal);}
-.badge{
-  font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:20px;white-space:nowrap;
+
+.bento-card h3 {
+  font-size: 16px;
+  color: var(--navy);
+  margin-bottom: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--blueprint);
 }
-.badge-proficient{background:#E9F1EA;color:#3A6B44;}
-.badge-working{background:#EFF3F9;color:var(--navy);}
-.badge-developing{background:#FBF1E4;color:#9A6A28;}
-.badge-familiar{background:var(--blueprint);color:var(--charcoal-soft);}
+
+/* Individual software/tool row */
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 0;
+}
+
+/* Logo + tool name */
+.skill-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14.5px;
+  color: var(--charcoal);
+  flex: 1;
+  min-width: 0;
+}
+
+/* Small software logo */
+.skill-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex: 0 0 20px;
+}
+
+/* Proficiency badge */
+.badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.badge-proficient {
+  background: #E9F1EA;
+  color: #3A6B44;
+}
+
+.badge-working {
+  background: #EFF3F9;
+  color: var(--navy);
+}
+
+.badge-developing {
+  background: #FBF1E4;
+  color: #9A6A28;
+}
+
+.badge-familiar {
+  background: var(--blueprint);
+  color: var(--charcoal-soft);
+}
 
 /* ---------- Services ---------- */
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
