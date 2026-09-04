@@ -231,13 +231,14 @@ section{position:relative;}
   font-size:14.5px;color:var(--charcoal-soft);padding-left:16px;position:relative;
 }
 .tl-card li::before{content:"—";position:absolute;left:0;color:var(--amber);}
-/* ---------- Experience Layout with Image ---------- */
+/* Experience card + image side by side */
 
 .experience-layout {
   display: grid;
-  grid-template-columns: 1.4fr 0.8fr;
-  gap: 32px;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 28px;
   align-items: stretch;
+  width: 100%;
 }
 
 .experience-layout .timeline {
@@ -246,6 +247,7 @@ section{position:relative;}
 }
 
 .experience-image {
+  width: 100%;
   min-height: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius-m);
@@ -259,6 +261,17 @@ section{position:relative;}
   min-height: 400px;
   object-fit: cover;
   display: block;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  .experience-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-image img {
+    min-height: 280px;
+  }
 }
 /* ---------- Skills (Bento) ---------- */
 /* ---------- Skills (Bento) ---------- */
