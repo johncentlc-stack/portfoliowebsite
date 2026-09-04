@@ -5,11 +5,10 @@ const PROJECTS = [
     category: "Quantity Takeoff",
     description: "[PROJECT DESCRIPTION — short summary of the takeoff scope, e.g. flooring and tiling quantities for a residential renovation.]",
     software: "PlanSwift",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
+    image: "PMU.png",
     overview: "[PROJECT OVERVIEW — describe the project background and objective.]",
-    scope: "[SCOPE — list the rooms, systems, or materials covered.]",
-    deliverables: "[DELIVERABLES — e.g. quantity schedule, marked-up drawings, summary sheet.]",
+    scope: "Painting",
+    deliverables: "marked-up drawings",
     takeaways: "[KEY TAKEAWAYS — what this project demonstrates about your approach.]"
   },
   {
