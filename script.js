@@ -6,6 +6,7 @@ const PROJECTS = [
     description: "[PROJECT DESCRIPTION — short summary of the takeoff scope, e.g. flooring and tiling quantities for a residential renovation.]",
     software: "PlanSwift",
     image: "PMU.png",
+    pdf: "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing",
     overview: "[PROJECT OVERVIEW — describe the project background and objective.]",
     scope: "Painting",
     deliverables: "marked-up drawings",
@@ -116,6 +117,7 @@ grid.addEventListener('click', (e) => {
   document.getElementById('modalTitle').textContent = p.title;
   document.getElementById('modalImage').src = p.image;
   document.getElementById('modalImage').alt = p.title;
+  document.getElementById('modalPdf').href = p.pdf;
   document.getElementById('modalOverview').textContent = p.overview;
   document.getElementById('modalScope').textContent = p.scope;
   document.getElementById('modalRole').textContent = p.role;
