@@ -61,7 +61,28 @@ const PROJECTS = [
     takeaways: "[KEY TAKEAWAYS]"
   }
 ];
+/* ================= CERTIFICATES ================= */
 
+const CERTIFICATES = [
+  {
+    title: "Certificate Title",
+    organization: "Organization Name",
+    year: "2026",
+    image: "certificate1.jpg"
+  },
+  {
+    title: "Certificate Title 2",
+    organization: "Organization Name",
+    year: "2025",
+    image: "certificate2.jpg"
+  },
+  {
+    title: "Certificate Title 3",
+    organization: "Organization Name",
+    year: "2025",
+    image: "certificate3.jpg"
+  }
+];
 /* ================= RENDER PORTFOLIO ================= */
 const grid = document.getElementById('portfolioGrid');
 function renderProjects(){
