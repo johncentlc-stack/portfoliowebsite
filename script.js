@@ -66,33 +66,62 @@ const PROJECTS = [
 
 const CERTIFICATES = [
   {
-    title: "Quantity Takeoff & Estimating Training",
-    organization: "Organization Name",
+    title: "Bluebeam Training and Workshop: Digital Quantity Takeoff and Estimation for AEC Professionals",
+    organization: "Xstructures",
     year: "2026",
-    image: "images/certificates/estimating-certificate.jpg",
+    image: "2026-BBPS-W1A-015_page-0001.jpg",
     link: "#"
   },
   {
-    title: "Quantity Takeoff & Estimating Training",
+    title: "PlanSwift Training and Workshop: Digital Quantity Takeoff and Estimation for AEC Professionals",
     organization: "Organization Name",
     year: "2026",
-    image: "images/certificates/estimating-certificate.jpg",
+    image: "2026-BBPS-W1B-015_page-0001.jpg",
     link: "#"
   },
   {
-    title: "Quantity Takeoff & Estimating Training",
-    organization: "Organization Name",
+    title: "Bluebeam Revu: Construction Takeoffs",
+    organization: "LinkedIn Learning",
     year: "2026",
-    image: "images/certificates/estimating-certificate.jpg",
+    image: "1772730898969.jpg",
     link: "#"
   },
   {
-    title: "Quantity Takeoff & Estimating Training",
-    organization: "Organization Name",
+    title: "Basics of Estimating Construction Costs",
+    organization: "Alison",
     year: "2026",
-    image: "images/certificates/estimating-certificate.jpg",
+    image: "Alison.png",
     link: "#"
   },
+   {
+    title: "Plan Reading and Specifications",
+    organization: "UC Davis",
+    year: "2026",
+    image: "CERTIFICATE_LANDING_PAGE~651AP28P52U4.jpg",
+    link: "#"
+  },
+   {
+    title: "Advanced Manual Construction Building Estimates with the aid of Microsoft Excel & AutoCAD 2026: Advanced cost strategy, professional estimating & bidding, risk analysios, and profit-focused estimation for construction projects",
+    organization: "MSTConnect,
+    year: "2026",
+    image: "ENGR. JOHNCENT L. CAYAMSO_page-0001.jpg",
+    link: "#"
+  },
+ {
+    title: "Structural Design 101: Structural Detailing of Low-Mid Rise Reinforced COncrete Structures",
+    organization: "MSTConnect,
+    year: "2025",
+    image: "JOHNCENT L. CAYAMSO (1)_page-0001.jpg",
+    link: "#"
+  },
+   {
+    title: "Construction Project Cost COntrol & Management: Mitigate Risks and Increase Your Profit by at Least 2.6%",
+    organization: "MSTConnect",
+    year: "2024",
+    image: "CAYAMSO, JOHNCENT L.jpg",
+    link: "#"
+  },
+
  
 ];
 
