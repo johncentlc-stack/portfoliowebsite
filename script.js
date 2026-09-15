@@ -70,56 +70,56 @@ const CERTIFICATES = [
     organization: "Xstructures",
     year: "2026",
     image: "2026-BBPS-W1A-015_page-0001.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/1ONIpBC1AObsucbQa5TeIB-GVoh7gp1fl/view?usp=sharing"
   },
   {
     title: "PlanSwift Training and Workshop: Digital Quantity Takeoff and Estimation for AEC Professionals",
-    organization: "Organization Name",
+    organization: "Xstructures",
     year: "2026",
     image: "2026-BBPS-W1B-015_page-0001.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/1lBBIpg1640cOdHJ1oTFtCiNgJRvhk-K3/view?usp=sharing"
   },
   {
     title: "Bluebeam Revu: Construction Takeoffs",
     organization: "LinkedIn Learning",
     year: "2026",
     image: "1772730898969.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/15XtyJeBTLm5K75j7wZMu-vHHIkyuAaKe/view?usp=sharing"
   },
   {
     title: "Basics of Estimating Construction Costs",
     organization: "Alison",
     year: "2026",
     image: "Alison.png",
-    link: "#"
+    link: "https://drive.google.com/file/d/1cdrcU_tn3rB0m1y6tdu0l06arlORRGzf/view?usp=sharing"
   },
    {
     title: "Plan Reading and Specifications",
     organization: "UC Davis",
     year: "2026",
     image: "CERTIFICATE_LANDING_PAGE~651AP28P52U4.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/1URL9y-qkcx3B3UabMSaZdUamGC-L2zsc/view?usp=sharing"
   },
    {
     title: "Advanced Manual Construction Building Estimates with the aid of Microsoft Excel & AutoCAD 2026: Advanced cost strategy, professional estimating & bidding, risk analysios, and profit-focused estimation for construction projects",
     organization: "MSTConnect",
     year: "2026",
     image: "ENGR. JOHNCENT L. CAYAMSO_page-0001.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/1wP1usk_2_QriQjHxzKq0rb3waDMn8NsF/view?usp=sharing"
   },
  {
     title: "Structural Design 101: Structural Detailing of Low-Mid Rise Reinforced COncrete Structures",
     organization: "MSTConnect",
     year: "2025",
     image: "JOHNCENT L. CAYAMSO (1)_page-0001.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/10rsT8PAak0AaJzVOwF_5gUI34af-OiY9/view?usp=sharing"
   },
    {
     title: "Construction Project Cost COntrol & Management: Mitigate Risks and Increase Your Profit by at Least 2.6%",
     organization: "MSTConnect",
     year: "2024",
     image: "CAYAMSO, JOHNCENT L.jpg",
-    link: "#"
+    link: "https://drive.google.com/file/d/1aW4RmkO1SPNYpggGSpLPHegjJv5DSbgd/view?usp=sharing"
   },
 
  
