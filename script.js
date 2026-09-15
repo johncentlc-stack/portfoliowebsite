@@ -76,37 +76,36 @@ const CERTIFICATES = [
 
 const certificatesGrid = document.getElementById("certificatesGrid");
 
-certificatesGrid.innerHTML = CERTIFICATES.map(cert => `
-  <article class="certificate-card">
+if (certificatesGrid) {
+  certificatesGrid.innerHTML = CERTIFICATES.map(cert => `
+    <article class="certificate-card">
 
-    <div class="certificate-image">
-      <img src="${cert.image}" alt="${cert.title}">
-    </div>
+      <div class="certificate-image">
+        <img src="${cert.image}" alt="${cert.title}">
+      </div>
 
-    <div class="certificate-content">
+      <div class="certificate-content">
+        <span class="certificate-label">CERTIFICATE</span>
 
-      <span class="certificate-label">
-        Certificate
-      </span>
+        <h3>${cert.title}</h3>
 
-      <h3>${cert.title}</h3>
+        <p>${cert.organization}</p>
 
-      <p>${cert.organization}</p>
+        <span class="certificate-year">${cert.year}</span>
 
-      <span class="certificate-year">
-        ${cert.year}
-      </span>
+        <a
+          href="${cert.link}"
+          target="_blank"
+          rel="noopener"
+          class="certificate-link"
+        >
+          View Certificate →
+        </a>
+      </div>
 
-      <a
-        href="${cert.link}"
-        target="_blank"
-        class="certificate-link"
-      >
-        View Certificate →
-      </a>
-
-    </div>
-
+    </article>
+  `).join("");
+}
 
 /* ================= RENDER PORTFOLIO ================= */
 const grid = document.getElementById('portfolioGrid');
