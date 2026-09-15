@@ -107,8 +107,7 @@ certificatesGrid.innerHTML = CERTIFICATES.map(cert => `
 
     </div>
 
-  </article>
-`).join("");
+
 /* ================= RENDER PORTFOLIO ================= */
 const grid = document.getElementById('portfolioGrid');
 function renderProjects(){
