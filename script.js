@@ -71,7 +71,29 @@ const CERTIFICATES = [
     year: "2026",
     image: "images/certificates/estimating-certificate.jpg",
     link: "#"
-  }
+  },
+  {
+    title: "Quantity Takeoff & Estimating Training",
+    organization: "Organization Name",
+    year: "2026",
+    image: "images/certificates/estimating-certificate.jpg",
+    link: "#"
+  },
+  {
+    title: "Quantity Takeoff & Estimating Training",
+    organization: "Organization Name",
+    year: "2026",
+    image: "images/certificates/estimating-certificate.jpg",
+    link: "#"
+  },
+  {
+    title: "Quantity Takeoff & Estimating Training",
+    organization: "Organization Name",
+    year: "2026",
+    image: "images/certificates/estimating-certificate.jpg",
+    link: "#"
+  },
+ 
 ];
 
 const certificatesGrid = document.getElementById("certificatesGrid");
