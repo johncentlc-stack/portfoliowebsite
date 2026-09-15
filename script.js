@@ -102,14 +102,14 @@ const CERTIFICATES = [
   },
    {
     title: "Advanced Manual Construction Building Estimates with the aid of Microsoft Excel & AutoCAD 2026: Advanced cost strategy, professional estimating & bidding, risk analysios, and profit-focused estimation for construction projects",
-    organization: "MSTConnect,
+    organization: "MSTConnect",
     year: "2026",
     image: "ENGR. JOHNCENT L. CAYAMSO_page-0001.jpg",
     link: "#"
   },
  {
     title: "Structural Design 101: Structural Detailing of Low-Mid Rise Reinforced COncrete Structures",
-    organization: "MSTConnect,
+    organization: "MSTConnect",
     year: "2025",
     image: "JOHNCENT L. CAYAMSO (1)_page-0001.jpg",
     link: "#"
