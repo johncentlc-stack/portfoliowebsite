@@ -23,43 +23,8 @@ const PROJECTS = [
     scope: "Performed quantity takeoffs for wall paint, ceiling paint, baseboards, and painted doors. Measurements were separated by room and specified finish, including primary and accent paint colors. Drawing markups were prepared to visually identify measured areas and support quantity verification.",
     deliverables: "Color-coded takeoff markups, room-by-room painting quantities, finish-specific measurements, wastage-adjusted quantities, and a structured Division 09 painting estimate worksheet ready for labor and material pricing.",
     takeaways: "Improved my ability to interpret architectural finish information and interior elevations, distinguish multiple paint systems, measure irregular and room-specific surfaces, organize quantities by CSI trade and finish code, and maintain traceable takeoff markups for review and verification."
-  },
-  {
-    title: "[PROJECT TITLE]",
-    category: "Construction",
-    description: "[PROJECT DESCRIPTION — short summary of a renovation or fitout scope.]",
-    software: "Bluebeam Revu, PlanSwift",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
-    overview: "[PROJECT OVERVIEW]",
-    scope: "[SCOPE]",
-    deliverables: "[DELIVERABLES]",
-    takeaways: "[KEY TAKEAWAYS]"
-  },
-  {
-    title: "[PROJECT TITLE]",
-    category: "Engineering",
-    description: "[PROJECT DESCRIPTION — short summary of the engineering support task.]",
-    software: "STAAD Pro, Excel",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
-    overview: "[PROJECT OVERVIEW]",
-    scope: "[SCOPE]",
-    deliverables: "[DELIVERABLES]",
-    takeaways: "[KEY TAKEAWAYS]"
-  },
-  {
-    title: "[PROJECT TITLE]",
-    category: "Quantity Takeoff",
-    description: "[PROJECT DESCRIPTION — short summary of a fixture and finish quantity count.]",
-    software: "PlanSwift, Excel",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
-    overview: "[PROJECT OVERVIEW]",
-    scope: "[SCOPE]",
-    deliverables: "[DELIVERABLES]",
-    takeaways: "[KEY TAKEAWAYS]"
   }
+ 
 ];
 
 /* ================= CERTIFICATES ================= */
