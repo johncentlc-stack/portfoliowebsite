@@ -1,40 +1,28 @@
 /* ================= CENTRALIZED EDITABLE CONTENT ================= */
 const PROJECTS = [
-  {
-    title: "Painting Works",
-    category: "Quantity Takeoff",
-    description: "[PROJECT DESCRIPTION — short summary of the takeoff scope, e.g. flooring and tiling quantities for a residential renovation.]",
-    software: "PlanSwift",
-    image: "PMU.png",
-    pdf: "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing",
-    overview: "[PROJECT OVERVIEW — describe the project background and objective.]",
-    scope: "Painting",
-    deliverables: "marked-up drawings",
-    takeaways: "[KEY TAKEAWAYS — what this project demonstrates about your approach.]"
+ 
+  {title: "Multi-Trade Construction Cost Estimate & BOQ",
+   category: "Estimating",
+   description: "Prepared a detailed multi-trade Bill of Quantities (BOQ) and cost estimate for a non-residential construction project, covering quantity takeoffs, material and labor pricing, wastage allowances, and overall project costing.",
+   software: "PlanSwift, Microsoft Excel",
+   image: "MARKUP.png",
+   pdf: "https://drive.google.com/drive/folders/1yAWD4m9E4aSExX88Ad3qP6FKM4-BSMQ9?usp=sharing",
+   overview: "This sample project demonstrates the preparation of a comprehensive construction BOQ from quantity takeoff through cost estimation. Measured quantities were organized by trade and incorporated into a structured cost estimate with wastage allowances, unit rates, labor and material costs, and overall project pricing.",
+   scope: "Quantity takeoff and cost estimation across general requirements, metals, ceiling works, flooring, mechanical, electrical, plumbing, millwork, signage, doors, and windows. The estimate also incorporated applicable wastage allowances and trade-level cost summaries.",
+   deliverables: "Detailed Bill of Quantities (BOQ), trade-by-trade quantity takeoff, labor and material cost breakdown, wastage-adjusted quantities, trade cost summaries, and overall project cost estimate.",
+   takeaways: "Strengthened my ability to interpret construction drawings, organize multi-trade quantities, apply appropriate measurement units and wastage factors, develop structured cost breakdowns, and consolidate individual trade estimates into a comprehensive project BOQ."
   },
   {
-    title: "[PROJECT TITLE]",
+    title: "Commercial Painting Quantity Takeoff",
     category: "Estimating",
-    description: "[PROJECT DESCRIPTION — short summary of the estimating support provided.]",
-    software: "Bluebeam Revu, Excel",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
-    overview: "[PROJECT OVERVIEW]",
-    scope: "[SCOPE]",
-    deliverables: "[DELIVERABLES]",
-    takeaways: "[KEY TAKEAWAYS]"
-  },
-  {
-    title: "[PROJECT TITLE]",
-    category: "CAD",
-    description: "[PROJECT DESCRIPTION — short summary of the CAD drafting work.]",
-    software: "AutoCAD, SketchUp",
-    role: "[MY ROLE]",
-    date: "[PROJECT DATE]",
-    overview: "[PROJECT OVERVIEW]",
-    scope: "[SCOPE]",
-    deliverables: "[DELIVERABLES]",
-    takeaways: "[KEY TAKEAWAYS]"
+    description: "Prepared a detailed painting quantity takeoff for a commercial project using architectural plans and interior elevations, with quantities separated by paint finish, location, and surface type.",
+    software: "PlanSwift, Microsoft Excel",
+    image: "Paint.png",
+    pdf: "https://drive.google.com/drive/folders/1NQva7LCTOIYIgNEnGVy2SzMUJSAgoV5o?usp=sharing",
+    overview: "This project involved reviewing architectural drawings and interior elevations to identify paintable surfaces and specified finish codes. Quantities were measured, categorized by location and finish, and transferred into a structured estimating worksheet for pricing and bid preparation.",
+    scope: "Performed quantity takeoffs for wall paint, ceiling paint, baseboards, and painted doors. Measurements were separated by room and specified finish, including primary and accent paint colors. Drawing markups were prepared to visually identify measured areas and support quantity verification.",
+    deliverables: "Color-coded takeoff markups, room-by-room painting quantities, finish-specific measurements, wastage-adjusted quantities, and a structured Division 09 painting estimate worksheet ready for labor and material pricing.",
+    takeaways: "Improved my ability to interpret architectural finish information and interior elevations, distinguish multiple paint systems, measure irregular and room-specific surfaces, organize quantities by CSI trade and finish code, and maintain traceable takeoff markups for review and verification."
   },
   {
     title: "[PROJECT TITLE]",
